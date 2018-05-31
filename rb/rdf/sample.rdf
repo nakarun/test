@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ex="http://example.com/">
+  <rdf:Description rdf:about="ex:lab">
+    <ex:member rdf:parseType="Resource">
+      <ex:name>落合</ex:name>
+      <ex:kana>ochiai</ex:kana>
+    </ex:member>
+    <ex:hashomepage>
+    <rdf:Description rdf:about="http://example.com/"></rdf:Description>
+    </ex:hashomepage>
+  </rdf:Description>
+</rdf:RDF>

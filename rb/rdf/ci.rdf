@@ -1,0 +1,51 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:con="http://www.w3.org/2000/10/swap/pim/contact#" xmlns:cinii="http://ci.nii.ac.jp/ns/1.0/" xmlns:bibo="http://purl.org/ontology/bibo/">
+<rdf:Description rdf:about="http://ci.nii.ac.jp/naid/110008682472#article">
+<rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+<foaf:isPrimaryTopicOf rdf:resource="http://ci.nii.ac.jp/naid/110008682472.rdf"/>
+<dc:title>非標準フォーマットを含む埋め込み型メタデータの抽出と統合によるメタデータ生成手法</dc:title>
+<dc:creator>本間 維</dc:creator>
+<dc:creator>永森 光晴</dc:creator>
+<dc:creator>杉本 重雄</dc:creator>
+<prism:publicationName>研究報告情報基礎とアクセス技術（IFAT）</prism:publicationName>
+<prism:volume>2011</prism:volume>
+<prism:number>8</prism:number>
+<prism:startingPage>1</prism:startingPage>
+<prism:endingPage>8</prism:endingPage>
+<prism:publicationDate>2011-11-15</prism:publicationDate>
+<dc:description>
+Web 上で公開されている Web ページ中にメタデータを記述するために，RDFa や Microformats，Microdata など複数の標準的な記述フォーマットが提案されている．しかし，標準的な記述フォーマットに従ったメタデータを持つ Web ページの数はまだ少なく，メタデータを利用した情報流通支援を行うには，より積極的なメタデータ付与が求められる．本稿では，DCMI Description Set Profile を基にした情報抽出テンプレートによる，相互利用性向上や作成コスト軽減を意識したメタデータ生成手法を提案する．Standard metadata formats, such as RDFa, Microformats, and Microdata, have been recommended to embed metadata in HTML or XHTML documents. However, many web pages have no metadata written in those formats. The other side, non-standard formats describing information for layout of web pages is used widely. For increasing metadata more proactively, we regard information in non-standard formats as metadata, and integrate with metadata in standard formats. This paper proposes a method to create metadata from resources with embedded metadata in standard and non-standard formats.
+</dc:description>
+<dc:date>2011-11-15</dc:date>
+<cinii:naid>110008682472</cinii:naid>
+<cinii:ncid>AN10114171</cinii:ncid>
+<dc:language>JPN</dc:language>
+<dc:source>IPSJ</dc:source>
+<cinii:fulltext>0</cinii:fulltext>
+<dcterms:isPartOf rdf:resource="http://ci.nii.ac.jp/ncid/AN10114171#entity" dc:title="研究報告情報基礎とアクセス技術（IFAT）"/>
+<rdfs:seeAlso rdf:resource="http://id.nii.ac.jp/1001/00078506/" dc:title="情報処理学会"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://ci.nii.ac.jp/naid/110008682472#article" xml:lang="en">
+<rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+<dc:title>
+Metadata Creation from Resources with Embedded Metadata - Extraction and Integration of Embedded Metadata in Standard and Non-standard Formats
+</dc:title>
+</rdf:Description>
+<rdf:Description rdf:about="http://ci.nii.ac.jp/naid/110008682472#article">
+<rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+<foaf:maker>
+<foaf:Person rdf:about="http://ci.nii.ac.jp/nrid/9000017716145#me">
+<foaf:name>本間 維</foaf:name>
+</foaf:Person>
+</foaf:maker>
+<foaf:maker>
+<foaf:Person rdf:about="http://ci.nii.ac.jp/nrid/1000060272209#me">
+<foaf:name>永森 光晴</foaf:name>
+</foaf:Person>
+</foaf:maker>
+<foaf:maker>
+<foaf:Person rdf:about="http://ci.nii.ac.jp/nrid/1000040154489#me">
+<foaf:name>杉本 重雄</foaf:name>
+</foaf:Person>
+</foaf:maker>
+</rdf:Description>
+</rdf:RDF>

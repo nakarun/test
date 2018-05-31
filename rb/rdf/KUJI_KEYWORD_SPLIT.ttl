@@ -1,0 +1,191 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+
+<http://example.com/さくらまつり> <http://example.com/a> <http://example.com/さくら>;
+   <http://example.com/isA> <http://example.com/まつり> .
+
+<http://example.com/すわ神社> <http://example.com/a> <http://example.com/すわ>;
+   <http://example.com/isA> <http://example.com/神社> .
+
+<http://example.com/プロジェクト> a schema:Organization .
+
+<http://example.com/下安家地区集会所> <http://example.com/a> <http://example.com/地区>;
+   <http://example.com/isA> <http://example.com/集会所>;
+   <http://example.com/isIn> <http://example.com/下安家> .
+
+<http://example.com/中学> a schema:MiddleSchool .
+
+<http://example.com/久慈秋祭り> <http://example.com/a> <http://example.com/秋>;
+   <http://example.com/isA> <http://example.com/祭り>;
+   <http://example.com/isIn> <http://example.com/久慈> .
+
+<http://example.com/企業体> a schema:Organization .
+
+<http://example.com/会議所> a schema:Organization .
+
+<http://example.com/体育館> a schema:ExerciseGym .
+
+<http://example.com/保養園> a schema:CivicStructure .
+
+<http://example.com/信用金庫> a schema:BankOrCreditUnion .
+
+<http://example.com/八戸市shi災害ボランティアセンター> <http://example.com/a> <http://example.com/市>;
+   <http://example.com/isA> <http://example.com/センター>;
+   <http://example.com/isIn> <http://example.com/八戸>;
+   <http://example.com/isRelatedIn> <http://example.com/ボランティア>,
+     <http://example.com/災害>,
+     <http://example.com/災> .
+
+<http://example.com/公民館> a schema:CivicStructure .
+
+<http://example.com/分譲地> a schema:Place .
+
+<http://example.com/北日本造船工場> <http://example.com/isA> <http://example.com/工場>;
+   <http://example.com/isIn> <http://example.com/北日本>;
+   <http://example.com/isRelatedIn> <http://example.com/造船> .
+
+<http://example.com/協会> a schema:Organization .
+
+<http://example.com/史料館> a schema:CivicStructure .
+
+<http://example.com/商店街> a schema:LocalBusiness .
+
+<http://example.com/国立オリンピック記念青少年総合センター国際交流棟> <http://example.com/a> <http://example.com/総合>,
+     <http://example.com/棟>,
+     <http://example.com/オリンピック>,
+     <http://example.com/青少年>,
+     <http://example.com/国立>,
+     <http://example.com/記念>;
+   <http://example.com/isA> <http://example.com/センター>;
+   <http://example.com/isRelatedIn> <http://example.com/国際交流> .
+
+<http://example.com/変電所> a schema:Place .
+
+<http://example.com/夏井駅前> <http://example.com/a> <http://example.com/駅前>;
+   <http://example.com/isA> <http://example.com/駅>;
+   <http://example.com/isIn> <http://example.com/夏井> .
+
+<http://example.com/寺> a schema:BuddhistTemple .
+
+<http://example.com/小中野中学校> <http://example.com/isA> <http://example.com/中学校>;
+   <http://example.com/isIn> <http://example.com/小中野> .
+
+<http://example.com/庁舎> a schema:CivicStructure .
+
+<http://example.com/普代村災対本部> <http://example.com/a> <http://example.com/対>;
+   <http://example.com/isA> <http://example.com/本部>;
+   <http://example.com/isIn> <http://example.com/普代村>;
+   <http://example.com/isRelatedIn> <http://example.com/災> .
+
+<http://example.com/有限会社> a schema:Organization .
+
+<http://example.com/村産業まつり> <http://example.com/a> <http://example.com/村産業>;
+   <http://example.com/isA> <http://example.com/まつり> .
+
+<http://example.com/株式会社> a schema:Organization .
+
+<http://example.com/港まつり復興市ichi> <http://example.com/a> <http://example.com/市ichi>,
+     <http://example.com/港>;
+   <http://example.com/isA> <http://example.com/まつり>;
+   <http://example.com/isRelatedIn> <http://example.com/復興> .
+
+<http://example.com/物産館> a schema:CivicStructure .
+
+<http://example.com/病院> a schema:Hospital .
+
+<http://example.com/社団法人> a schema:Organization .
+
+<http://example.com/第1回岩手県災害廃棄物処理対策協議会> <http://example.com/a> <http://example.com/県>,
+     <http://example.com/対策>,
+     <http://example.com/対>;
+   <http://example.com/isA> <http://example.com/協議会>;
+   <http://example.com/isIn> <http://example.com/岩手>;
+   <http://example.com/isRelatedIn> <http://example.com/災害>,
+     <http://example.com/廃棄物> .
+
+<http://example.com/組合> a schema:Organization .
+
+<http://example.com/老人ホーム> a schema:CivicStructure .
+
+<http://example.com/自動車道> a schema:Place .
+
+<http://example.com/記念館> a schema:CivicStructure .
+
+<http://example.com/詰所> a schema:Hotel .
+
+<http://example.com/財団> a schema:Organization .
+
+<http://example.com/選手権> a schema:Event .
+
+<http://example.com/郵便局> a schema:PostOffice .
+
+<http://example.com/野田まつり> <http://example.com/isA> <http://example.com/まつり>;
+   <http://example.com/isIn> <http://example.com/野田> .
+
+<http://example.com/野田中学校体育祭> <http://example.com/isA> <http://example.com/体育祭>;
+   <http://example.com/isHeldIn> <http://example.com/野田中学校> .
+
+<http://example.com/野田村生涯学習センター> <http://example.com/isA> <http://example.com/センター>;
+   <http://example.com/isIn> <http://example.com/野田村>;
+   <http://example.com/isRelatedIn> <http://example.com/生涯学習> .
+
+<http://example.com/野田駅> <http://example.com/isA> <http://example.com/駅>;
+   <http://example.com/isIn> <http://example.com/野田> .
+
+<http://example.com/銀行> a schema:BankOrCreditUnion .
+
+<http://example.com/駅舎> a schema:CivicStructure .
+
+<http://example.com/高校> a schema:HighSchool .
+
+<http://example.com/高等学校> a schema:HighSchool .
+
+<http://example.com/下安家> a schema:Place;
+   vcard:hasURL <http://geonames.org/resource/なし> .
+
+<http://example.com/久慈> a schema:Place;
+   vcard:hasURL <http://geonames.org/resource/岩手県久慈市> .
+
+<http://example.com/八戸> a schema:Place;
+   vcard:hasURL <http://geonames.org/resource/青森県八戸市> .
+
+<http://example.com/北日本> a schema:Place;
+   vcard:hasURL <http://geonames.org/resource/なし> .
+
+<http://example.com/夏井> a schema:Place;
+   vcard:hasURL <http://geonames.org/resource/新潟県新潟市西蒲区夏井> .
+
+<http://example.com/小中野> a schema:Place;
+   vcard:hasURL <http://geonames.org/resource/青森県八戸市小中野> .
+
+<http://example.com/岩手> a schema:Place;
+   vcard:hasURL <http://geonames.org/resource/岩手県> .
+
+<http://example.com/普代村> a schema:Place;
+   vcard:hasURL <http://geonames.org/resource/岩手県下閉伊郡普代村> .
+
+<http://example.com/本部> a schema:Organization .
+
+<http://example.com/神社> a schema:Place .
+
+<http://example.com/祭り> a schema:Festival .
+
+<http://example.com/野田中学校> <http://example.com/isA> <http://example.com/中学校>;
+   <http://example.com/isIn> <http://example.com/野田> .
+
+<http://example.com/野田村> a schema:Place;
+   vcard:hasURL <http://geonames.org/resource/岩手県九戸郡野田村> .
+
+<http://example.com/集会所> a schema:CivicStructure .
+
+<http://example.com/中学校> a schema:MiddleSchool .
+
+<http://example.com/駅> a schema:TrainStation .
+
+<http://example.com/センター> a schema:Organization .
+
+<http://example.com/野田> a schema:Place;
+   vcard:hasURL <http://geonames.org/resource/宮城県塩竈市野田> .
+
+<http://example.com/まつり> a schema:Festival .
